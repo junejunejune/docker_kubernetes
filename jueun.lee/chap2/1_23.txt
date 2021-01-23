@@ -1,0 +1,22 @@
+Chapter 2. 실습
+
+1. 실습 환경 구축
+교재 517 페이지의 Docker Desktop for Mac 설치
+https://github.com/docker/getting-started 클론하여 초기 세팅
+
+2. 터미널에서 도커 가지고 놀기
+docker run hello-world'
+docker --version
+docker run -it ubuntu bash => 대화형 모드로 ubuntu 이미지 실행하면 ubuntu 가상 서버에 접속한 것처럼 우분투에서 바로 코딩 가능...
+
+3. 유용한 도커 커맨드
+docker run --rm --it 이미지 커맨드 => 컨테이너 실행(종료 시에 컨테이너 삭제, 대화형 셸로 실행)
+docker ps => 실행 증인 컨테이너 목록 출력
+docker stop => 실행 중인 컨테이너 종료 요청
+docker kill => 강제 종료docker ps => 실행 증인 컨테이너 목록 출력
+docker stop => 실행 중인 컨테이너 종료 요청
+docker kill => 강제 종료
+
+3. 도터 파일 작성
+
+
