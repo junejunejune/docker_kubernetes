@@ -3,7 +3,7 @@
 <body>
 
 <?php
-$servername = "mysql";
+$servername = "mysqlserver";
 $database = "mysql";
 
 $username = getenv('MYSQL_USER');
